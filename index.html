@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Game</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- Player information -->
+    <p id="count">
+        Food: 0
+    </p>
+
+    <!-- Game -->
+    <canvas id="game"></canvas>
+
+
+    <!-- ================================ -->
+    <!-- EMOTE CHAT -->
+    <!-- ================================ -->
+
+    <div id="emotes"></div>
+
+
+    <!-- ================================ -->
+    <!-- MINIMAP -->
+    <!-- ================================ -->
+
+    <div id="minimap-container">
+        <canvas id="minimap"></canvas>
+
+        <div id="minimap-label">
+            MAP
+        </div>
+    </div>
+
+
+    <!-- ================================ -->
+    <!-- EMOTE BUTTONS -->
+    <!-- ================================ -->
+
+    <div id="emote-buttons">
+
+        <button id="emote1">
+            1 😂
+        </button>
+
+        <button id="emote2">
+            2 😡
+        </button>
+
+        <button id="emote3">
+            3 😞
+        </button>
+
+    </div>
+
+
+    <script src="game.js"></script>
+
+</body>
+</html>
